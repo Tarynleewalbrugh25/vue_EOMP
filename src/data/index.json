@@ -1,0 +1,121 @@
+{
+    "education": [
+        {
+            "id": 1,
+            "year": 2019,
+            "description": "Matriculated",
+            "place": "Princeton High School",
+            "type": "National Senior Certificate",
+            "certificate": "https://drive.google.com/file/d/1-f1yRukcXLo0e8ip3Cb7Z3D29Er9ENn_/view"
+        },
+        {
+            "id": 2,
+            "year": 2020,
+            "description": "I got my N1 and N2 certificates",
+            "place": "North Link college",
+            "type": "certificate",
+            "certificate": "https://drive.google.com/file/d/1qd2xS-HvI4c_C4vf1-Z1R_bPxzF7SZ-t/view"
+        },
+        {
+            "id": 3,
+            "year": 2023,
+            "description": "I got my N3 and N4 certificates",
+            "place": "North link college",
+            "type": "certificate",
+            "certificate": "https://drive.google.com/file/d/1-_DBHhxHKGS3Gqsy5eJ-_16WJN50OfXX/view"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Html",
+            "experience": "enough"
+        },
+        {
+            "title": "Css",
+            "experience": "enough"
+        },
+        {
+            "title": "Javascript",
+            "experience": "enough"
+        },
+        {
+            "title": "VueJs",
+            "experience": "enough"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Nathalie",
+            "surname": "Willimse",
+            "quotes": "Taryn Lee is a gem. She is very knowlegdeable and wise. She is super kind and always willing to help. She is very friendly and makes new friends everywhere. She is a people's person and enjoy being around people. I am  very honored to be in her class and being here peer.",
+            "profile": "https://i.postimg.cc/SRBL8qnC/rachel.jpg"
+        },
+        {
+            "name": "Jason ",
+            "surname": "September",
+            "quotes": "Taryn-lee Walbrugh is an outstanding individual I enjoy working with her, she always promotes positivity , great communicative skills and has unmatched enthusiasm and determination. She is the ideal work colleague but mainly a wonderful companion and friend.",
+            "profile": "https://i.postimg.cc/DyGHNwPV/ruth.jpg"
+        },
+        {
+            "name": "Anathi",
+            "surname": "josefu",
+            "quotes": "Taryn-lee Walbrugh is a highly dedicated and inquisitive individual with unwavering focus on achieving projects  goals.She is consistently exhibited a strong commitment to learning and problem-solving</p>",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        },
+        {
+            "name": "Seth",
+            "surname": "Tobias",
+            "quotes": "Taryn-lee is a wonderful individual. She is a very caring and honest individual.She is also a very well organized  and knows what she wants. She gets the things she needs to do done. Quickly and efficiently. She is also very effective at management.  She will be a great asset to any organization.",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        },
+        {
+            "name": "Joel",
+            "surname": "Mukanya",
+            "quotes": "Taryn-lee is a creative, goal-getter, and well-behaved individual who always prioritizes her work. She excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        },
+        {
+            "name": "Ntokozo",
+            "surname": "s",
+            "quotes": "Taryn-lee is a creative, goal-getter, and well-behaved individual who always prioritizes her work. She excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        }
+    ],
+    "projects":[
+        {
+            "name": "To-do List",
+            "description": "I built this application using HTML 5, CSS, and Javascript.",
+            "image": "https://i.postimg.cc/tTF7RMr1/todoList.png",
+            "gitHub": "https://github.com/codjoelmayer/todoApp_js.git",
+            "netlify": "https://joel-todo-list.netlify.app/"
+        },
+        {
+            "name": "Calculator",
+            "description": "This is my calculator app, and I built it using HTML 5, CSS 3, Javascript, and Bootstrap's icon. In order to validate my input element, I make use of regular expressions.",
+            "image": "https://i.postimg.cc/vH8q91JB/reg-Exp-Calculator.png",
+            "gitHub": "https://github.com/codjoelmayer/regExpCalculator.git",
+            "netlify": "https://regexpcalculator.netlify.app/"
+        },
+        {
+            "name": "Message believers Circle",
+            "description": "MBC is an application I built for my client for selling products online. I make use of Vue3 JS, MySQL, APIs, and JSON Web Tokens.",
+            "image": "https://i.postimg.cc/k4tqF1Ln/message-Believer-Circle.png",
+            "gitHub": "https://github.com/codjoelmayer/messageBelieversCircle.git",
+            "netlify": "https://messagebelieverscircle-3491d.web.app/"
+        },
+        {
+            "name": "JT Laptop",
+            "description": "An eCommerce site built using HTML 5, CSS, Javascript, and Bootstrap 5",
+            "image": "https://i.postimg.cc/g2YVCx3R/JTLaptop.png",
+            "gitHub": "https://github.com/codjoelmayer/JTLaptops.git",
+            "netlify": "https://jtlaptops.netlify.app/"
+        },
+        {
+            "name": "JS Portfolio",
+            "description": "I built my portfolio using HTML 5, CSS, Bootstrap, and Javascript. I am using JS to display my dynamic content.",
+            "image": "https://i.postimg.cc/W4m3tkbb/js-Portfolio.png",
+            "gitHub": "https://github.com/codjoelmayer/PortfolioWithBSAndJS.git",
+            "netlify": "https://joeljsportfolio.netlify.app/"
+        }
+    ]
+}
