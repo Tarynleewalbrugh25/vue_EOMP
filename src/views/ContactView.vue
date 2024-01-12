@@ -4,8 +4,7 @@
    <div class="bg bg3"></div>
   <div class="container d-flex">
            <div class="row">
-             <h2 class="display-2 text-center">Contact</h2>
-             <div class="sec1" >
+             <h2 class="display-2 text-center text-white">Contact</h2>
               <form class="align-center"
                action="https://formspree.io/f/xpzgvddd" 
                method="POST"
@@ -31,7 +30,6 @@
                     <i class="fa fa-linkedin"></i>
                     <i class="fa fa-codepen"></i>
                </div>
-         </div>
          </div>
   </template>
   
