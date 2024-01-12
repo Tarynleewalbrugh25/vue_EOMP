@@ -12,8 +12,8 @@
             <div class="card-content">
               <div class="card-title card-text text-white">{{ info.name }}</div>
               <p class="card-text text-sm text-white">{{ info.description }}</p>
-              <button class="card-button btn btn-primary">Github</button>
-              <button class="card-button btn btn-primary">Vercel</button>
+              <a :href="info.gitHub" class="card-button btn btn-primary">GitHub</a>
+              <a :href="info.vercel" class="card-button btn btn-primary">Vercel</a>
             </div>
           </div>
     </div>

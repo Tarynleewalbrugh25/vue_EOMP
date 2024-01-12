@@ -2,12 +2,12 @@
    <div class="bg"></div>
    <div class="bg bg2"></div>
    <div class="bg bg3"></div>
-     <div class="container-fluid" id="bgimage">
+     <div class="container-fluid">
        <div class="row justify-content-center">
          <div class="col-md-6">
-           <div class="rotating-text-wrapper">
-             <h2 class="d-md-block">Taryn-lee Walbrugh</h2>
-             <h2 class="d-md-block">Aspiring Developer</h2>
+           <div class="rotating-text-wrapper ">
+             <h2 class="card-text text-sm">Taryn-lee Walbrugh</h2>
+             <h2 class="card-text text-sm">Aspiring Developer</h2>
            </div>
          </div>
        </div>
@@ -33,7 +33,7 @@ font-size: 4rem;
 margin: 0;
 padding: 0.3em;
 color:white;
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+box-shadow: 0 10px 10px #83c5be ;
 opacity: 0;
 animation-duration: 5s;
 animation-iteration-count: infinite;
@@ -63,5 +63,17 @@ animation-name: rotating-text-2;
   opacity: 1;
   transform: translateY(0);
 }
+}
+.card-text {
+  margin: 0; 
+}
+
+.text-sm {
+  font-size: 0.875rem; 
+}
+@media (max-width: 576px) {
+  p.text-sm {
+    font-size: 12px; 
+  }
 }
 </style>

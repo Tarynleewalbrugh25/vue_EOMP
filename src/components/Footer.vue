@@ -1,6 +1,8 @@
 <template>
-    <footer class="footer fixed-bottom bg-light">
-      <p>Taryn-lee Walbrugh Portfolio&copy; {{ currYear }}</p>
+    <footer class="footer container-fluid fixed">
+      <div class="row">
+        <p>Taryn-lee Walbrugh Portfolio&copy; {{ currYear }}</p><br><i class="bi bi-telephone-fill">0682714785</i>
+      </div>
     </footer>
   </template>
   
@@ -16,11 +18,9 @@
   </script>
   
   <style>
-  .footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
+.footer {
+  background-color: #006D77;
+  color: aliceblue;
+}
  
   </style>
