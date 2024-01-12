@@ -4,7 +4,7 @@
    <div class="bg bg3"></div>
   <div class="container">
     <div class="row">
-      <h1 class="display-2 text-center">Testimonials</h1>
+      <h1 class="display-2 text-center text-white">Testimonials</h1>
     </div>
       </div>
     <div class="card-container d-flex justify-content-center flex-wrap gap-4">
@@ -37,23 +37,14 @@ export default {
 </script>
 
 <style>
-.card-img-top{
-  background-color: #83c5be;
-}
 .card-body{
-  background-color: #83c5be;
+  background-color:white;
 }
 h5 {
   font-weight: bolder;
 }
 p {
   font-size: 20px;
-}
-
-@media (max-width: 768px) {
-  .book {
-    height: auto;
-  }
 }
 .card-text {
   margin: 0; /* Remove default margin */
