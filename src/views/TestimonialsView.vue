@@ -8,7 +8,7 @@
     </div>
       </div>
     <div class="card-container d-flex justify-content-center flex-wrap gap-4">
-      <div class="card " style="width:18rem;" v-for="info in testimonials" :key="info.id">
+      <div class="card mb-3" style="width:18rem;" v-for="info in testimonials" :key="info.id">
         <img 
           :src="info.profile" 
           class="card-img-top w-50"

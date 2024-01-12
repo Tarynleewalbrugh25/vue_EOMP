@@ -3,11 +3,11 @@
    <div class="bg bg2"></div>
    <div class="bg bg3"></div>
   <div class="container">
-    <div class="row">
+    <div class="row  d-block d-flex justify-content-center">
       <div class="col-12">
         <h4 class="display-4 text-center text-white">Education</h4>
         <div class="card-container d-flex flex-wrap justify-content-center gap-4">
-          <div class="card mb-3" style="width:18rem;" v-for="info in education" :key="info.id">
+          <div class="col-sm-12 col-md-6 col-lg-4" v-for="info in education" :key="info.id">
             <div class="card">
               <div class="card-inner">
                 <div class="card-front">
@@ -65,6 +65,21 @@ export default {
 <style scoped>
 .card {
   width: 300px;
+  height: 400px;
+  background-color:#83c5be ;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card {
+  width: 300px;
   height: 200px;
   perspective: 1000px;
 }
@@ -114,15 +129,15 @@ export default {
 }
 @media (max-width: 576px) {
   p.text-sm {
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 14px; 
   }
 }
 .card-text {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .text-sm {
-  font-size: 0.875rem; /* Adjust the font size as needed */
+  font-size: 0.875rem; 
 }
 
 </style>
