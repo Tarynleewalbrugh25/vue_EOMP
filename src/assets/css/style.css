@@ -13,10 +13,14 @@ img[alt='profile'] {
   width: 20rem;
 } 
 
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Calligraffitti&family=Ephesis&family=Fasthand&family=Love+Light&family=Playfair+Display:wght@400..900&family=Satisfy&family=Sintony&display=swap');
 
 /*app.vue*/
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -36,6 +40,12 @@ img[alt='profile'] {
   
   nav a.router-link-exact-active {
     color: #42b983;
+  }
+  nav a.router-link-exact-active  {
+    color: white;
+    border-bottom: white  3px solid;
+    margin-left: auto;
+    
   }
   * {
     margin: 0;
@@ -69,7 +79,9 @@ img[alt='profile'] {
   .bg3 {
     animation-duration:5s;
   }
-  
+  .container {
+    margin: 50px; /* Add margin to the container */
+  }
   .content {
     background-color:rgba(255,255,255,.8);
     border-radius:.25em;
