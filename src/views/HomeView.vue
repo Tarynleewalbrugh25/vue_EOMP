@@ -33,7 +33,7 @@ font-size: 4rem;
 margin: 0;
 padding: 0.3em;
 color:white;
-box-shadow: 0 10px 10px #83c5be ;
+box-shadow: 0 10px 10px #CDBCA5 ;
 opacity: 0;
 animation-duration: 5s;
 animation-iteration-count: infinite;
