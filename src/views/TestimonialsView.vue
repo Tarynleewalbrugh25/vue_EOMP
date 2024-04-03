@@ -8,32 +8,20 @@
     </div>
       </div>
     <div class="card-container d-flex justify-content-center flex-wrap gap-4">
-      <div class="card mb-3" style="width:18rem;" v-for="info in testimonials" :key="info.id">
-        <img 
-          :src="info.profile" 
-          class="card-img-top w-50"
-          loading="lazy"
-          alt="profile"
+      <div class="card mb-3" style="width:18rem;">
+        <img src=""
+        
         />
        <div class="card-body">
-        <h5 class="card-text text-sm">{{ info.name }} {{ info.surname }}</h5>
-        <p class="card-text text-sm">{{ info.quotes }}</p>
+        <h5 class="card-text text-sm"></h5>
+        <p class="card-text text-sm"></p>
        </div>
       </div>
       </div>
 </template>
 
 <script>
-export default {
-  computed: {
-    testimonials() {
-      return this.$store.state.testimonials;
-    }
-  },
-  mounted() {
-    this.$store.dispatch('fetchData');
-  }
-};
+
 </script>
 
 <style>

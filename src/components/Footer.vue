@@ -21,6 +21,8 @@
 .footer {
   background-color: #006D77;
   color: aliceblue;
+  position: relative;
+  bottom: 0;
 }
  
   </style>

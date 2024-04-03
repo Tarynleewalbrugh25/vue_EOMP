@@ -7,13 +7,25 @@
       <div class="col-12">
         <h4 class="display-4 text-center text-white">Projects</h4>
         <div class="card-container d-flex flex-wrap justify-content-center gap-4">
-          <div class="card mb-3" style="width:18rem;" v-for="info in projects" :key="info.id">
+          <div class="card mb-3" style="width:18rem;">
             <div class="card">
             <div class="card-content">
-              <div class="card-title card-text text-white">{{ info.name }}</div>
-              <p class="card-text text-sm text-white">{{ info.description }}</p>
-              <a :href="info.gitHub" class="card-button btn btn-primary">GitHub</a>
-              <a :href="info.vercel" class="card-button btn btn-primary">Vercel</a>
+              <div class="card-title card-text text-white">Age to Days</div>
+              <p class="card-text text-sm text-white">This is a Calculator that calculates your age into days</p>
+              <button class="card-button btn btn-primary">GitHub</button>
+              <button class="card-button btn btn-primary">Vercel</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-title card-text text-white"></div>
+              <p class="card-text text-sm text-white"></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-title card-text text-white"></div>
+              <p class="card-text text-sm text-white"></p>
             </div>
           </div>
     </div>
@@ -25,20 +37,9 @@
 
 <script>
 
-export default {
-  computed: {
-    projects() {
-      return this.$store.state.projects;
-    },
-  },
-  mounted() {
-    this.$store.dispatch('fetchData');
-}
-};
 </script>
 
 <style scoped>
-
 .card {
   width: 300px;
   height: 400px;
@@ -111,11 +112,11 @@ export default {
 }
 
 .card-text {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .text-sm {
-  font-size: 0.875rem; /* Adjust the font size as needed */
+  font-size: 0.875rem; 
 }
 
 </style>

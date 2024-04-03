@@ -6,15 +6,51 @@
     <div class="row  d-block d-flex justify-content-center">
       <div class="col-12">
         <h4 class="display-4 text-center text-white">Education</h4>
-        <div class="card-container d-flex flex-wrap justify-content-center gap-4">
-          <div class="col-sm-12 col-md-6 col-lg-4" v-for="info in education" :key="info.id">
+        <div class="card-container d-flex flex-wrap justify-content-center gap-2">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <div class="card">
               <div class="card-inner">
                 <div class="card-front">
-                  <p class="card-text">{{ info.year }}<br>{{ info.place}}</p>
+                  <p class="card-text">2019<br>Princeton High School</p>
                 </div>
                 <div class="card-back">
-                  <p class="card-text text-sm">{{ info.description }}<br>{{ info.type }}</p>
+                  <p class="card-text">National Senior Certificate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">2020<br>North Link College</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text">N1 & N2 Certificate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">2023<br>North Link College</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text">N3 Certificate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">2023-2024<br>Life Choices</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text">Certificate</p>
                 </div>
               </div>
             </div>
@@ -27,15 +63,75 @@
     <div class="row">
       <div class="col-12">
         <h4 class="display-4 text-center text-white">Skills</h4>
-        <div class="card-container d-flex flex-wrap justify-content-center gap-4">
-          <div class="card mb-3" style="width:18rem;" v-for="info in skills" :key="info.id">
+        <div class="card-container d-flex flex-wrap justify-content-center gap-2">
+          <div class="card mb-3">
             <div class="card">
               <div class="card-inner">
                 <div class="card-front">
-                  <p class="card-text">{{ info.title }}</p>
+                  <p class="card-text">Html</p>
                 </div>
                 <div class="card-back">
-                  <p class="card-text text-sm">{{ info.experience }}</p>
+                  <p class="card-text text-sm">I have acquired lots of knowledge from html and im fully confident in understanding both the meaning and uses of the tags.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">Css</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">Javascript</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </div><br>
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">Vuejs</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">Mysql</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <p class="card-text">Nodejs</p>
+                </div>
+                <div class="card-back">
+                  <p class="card-text text-sm"></p>
                 </div>
               </div>
             </div>
@@ -47,19 +143,6 @@
 </template>
 
 <script>
-export default {
-  computed: {
-    education() {
-      return this.$store.state.education;
-    },
-    skills() {
-      return this.$store.state.skills
-    }
-  },
-  mounted() {
-    this.$store.dispatch('fetchData');
-},
-}
 </script>
 
 <style scoped>

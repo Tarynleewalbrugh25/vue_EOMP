@@ -18,7 +18,7 @@
          </li>
          <li class="nav-item">
             <RouterLink class="nav-link" to="./resume"><i class="bi bi-book"></i>
-             Resume
+             Education
             </RouterLink>
          </li>
          <li class="nav-item">
