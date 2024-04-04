@@ -7,7 +7,7 @@
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <RouterLink to="/"  class="nav-link text-white"><i class="bi bi-house"></i>
+           <RouterLink to="/"  class="nav-link text"><i class="bi bi-house"></i>
              Home
            </RouterLink>
          </li>
@@ -50,9 +50,9 @@
  
  <style scoped>
  .navbar{
-  background-color: #006d77;
+  background-color: #83c5be;
  }
  .navbar a {
-  color: aliceblue;
+  color: black;
  }
  </style>

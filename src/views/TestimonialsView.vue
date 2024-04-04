@@ -1,10 +1,7 @@
 <template>
-  <div class="bg"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
   <div class="container">
     <div class="row">
-      <h1 class="display-1 text-center text-white">Testimonials</h1>
+      <h1 class="display-1 text-center">Reviews</h1>
     </div>
     <div class="row">
       <div class="card-container d-flex justify-content-center flex-wrap gap-4">
@@ -67,6 +64,12 @@ p {
 }
 .text-sm {
   font-size: 0.875rem; /* Adjust the font size as needed */
+}
+h1.display-1 {
+  margin-bottom: 45px; /* Adjust the margin between the heading and content */
+}
+.card-img-top {
+  margin-top: 20px;
 }
 </style>
 

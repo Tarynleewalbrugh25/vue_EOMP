@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer container-fluid fixed-bottom">
+    <footer class="footer container-fluid">
       <div class="row">
         <p>Taryn-lee Walbrugh Portfolio&copy; {{ currYear }}</p><br><i class="bi bi-telephone-fill">0682714785</i><i class="bi bi-github"></i>
       </div>
@@ -19,7 +19,7 @@
   
   <style>
 .footer {
-  background-color: grey;
+  background-color:#83c5be;
   color: aliceblue;
   position: relative;
   bottom: 0;
