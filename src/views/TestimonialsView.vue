@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <h1 class="display-1 text-center">Reviews</h1>
+      <h2 class="display-2 text-center text-black">Reviews</h2>
     </div>
     <div class="row">
       <div class="card-container d-flex justify-content-center flex-wrap gap-4">
@@ -62,10 +62,8 @@ p {
 .card-text {
   margin: 0; /* Remove default margin */
 }
-.text-sm {
-  font-size: 0.875rem; /* Adjust the font size as needed */
-}
-h1.display-1 {
+c
+h2.display-2 {
   margin-bottom: 45px; /* Adjust the margin between the heading and content */
 }
 .card-img-top {

@@ -28,7 +28,7 @@
          </li>
          <li class="nav-item">
             <RouterLink class="nav-link" to="./testimonials"><i class="bi bi-file-earmark"></i>
-             Testimonials
+             Reviews
             </RouterLink>
          </li>
          <li class="nav-item">

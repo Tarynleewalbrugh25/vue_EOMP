@@ -1,55 +1,64 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="display-3" id="Home">
-        <!-- <h2>Home</h2> -->
-          <div class="row justify-content-center m-3 mb-2" id="HomeText">
-            <p class="homeText text-dark text-sm-center"></p>
-          </div>
-          <div class="front row d-block d-flex m-3 mb-5" id="homeImages">
-          </div>
-          <div class="back">
-          </div>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="container-1">
+  <div class="img" id="blob">
       </div>
-    </div>
-  </div>
+      <div class="text">
+        <h1 class="text-black">Taryn-lee Walbrugh</h1>
+      </div>
+          </div>
 </template>
-<script>
 
+<script>
 export default {
-  name: 'HomeView',
-  components: {},
-  mounted(){
-    this.typeWriter('name', 'Taryn-lee Walbrugh, Aspiring Full Stack Developer');
-  },
-  methods:{
-    typeWriter(targetId, text, speed =100){
-      const typer = document.getElementById('HomeText');
-  if (typer) {
-    let i = 0;
-    const typeWriterInterval = setInterval(() => {
-      if (i < text.length) {
-        typer.innerHTML += text.charAt(i);
-        i++;
-      } else {
-        clearInterval(typeWriterInterval);
-      }
-    }, speed);
-  }
-},
-},
 }
 </script>
 
 <style>
-@media screen and (max-width < 360){
-  img [alt="cat&owner"]{
-    display: block;
-    position: relative;
-  }
+
+.container-1{
+  height: 100vh;
 }
-.row img [alt="cat&owner"]{
-  position: relative;
-  overflow: hidden;
+#blob {
+    background-image: url(https://i.ibb.co/1GFxL0B/20231022-161301.jpg);
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    margin: 50px; /* Adjust margin to move image to the left */
+    border-radius: 50%; /* Make the image round */
+    box-shadow: 0 5px 5px 5px rgb(38, 86, 191);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
 }
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #blob {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #blob {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 </style>

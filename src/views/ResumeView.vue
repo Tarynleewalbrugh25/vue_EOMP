@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-  <h2 class="display-2 d-flex justify-content-center">Education</h2>
+  <h2 class="display-2 d-flex justify-content-center text-black">Education</h2>
   
   <ul class="timeline">
     <li>
       <div class="direction-r">
         <div class="flag-wrapper">
-          <span class="flag">Life Choices</span>
-          <span class="time-wrapper"><span class="time">2023 - 2024</span></span>
+          <span class="flag text-black">Life Choices</span>
+          <span class="time-wrapper text-black"><span class="time">2023 - 2024</span></span>
         </div>
-        <div class="desc">Full Stack Program</div>
+        <div class="desc text-black">Full Stack Program</div>
       </div>
     </li>
     
@@ -17,10 +17,10 @@
     <li>
       <div class="direction-l">
         <div class="flag-wrapper">
-          <span class="flag">North Link College</span>
-          <span class="time-wrapper"><span class="time">2022</span></span>
+          <span class="flag text-black">North Link College</span>
+          <span class="time-wrapper text-black"><span class="time">2022</span></span>
         </div>
-        <div class="desc">N3 Civil Engerering</div>
+        <div class="desc text-black">N3 Civil Engerering</div>
       </div>
     </li>
   
@@ -28,10 +28,10 @@
     <li>
       <div class="direction-r">
         <div class="flag-wrapper">
-          <span class="flag">North Link College</span>
-          <span class="time-wrapper"><span class="time">2019 - 2021</span></span>
+          <span class="flag text-black">North Link College</span>
+          <span class="time-wrapper text-black"><span class="time">2019 - 2021</span></span>
         </div>
-        <div class="desc">N1-N2 Civil And Building</div>
+        <div class="desc text-black">N1-N2 Civil And Building</div>
       </div>
     </li>
     
@@ -39,19 +39,109 @@
        <li>
       <div class="direction-l">
         <div class="flag-wrapper">
-          <span class="flag">Princeton High School</span>
-          <span class="time-wrapper"><span class="time">2015 - 2019</span></span>
+          <span class="flag text-black">Princeton High School</span>
+          <span class="time-wrapper text-black"><span class="time">2015 - 2019</span></span>
         </div>
-        <div class="desc">Subjects Passed: Tech Mathematics, Physics & Engerering Graphics and Design.</div>
+        <div class="desc text-black">Subjects Passed: Tech Mathematics, Physics & Engerering Graphics and Design.</div>
       </div>
     </li>
   </ul>
 </div>
   <div class="container">
-    <h2 class="display-2 d-flex justify-content-center">Skills</h2>
+    <h2 class="display-2 d-flex justify-content-center text-black">Skills</h2>
     <div class="card-container d-flex flex-wrap justify-content-center gap-4">
+      <div class="card-container d-flex flex-wrap justify-content-center gap-4">
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/1qvByTj/html.png">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/W2f63rt/css.png">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/Hh6P0t1/nodejs.png">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/nDDSm6D/mysql.png">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/G2QPsSv/vuejs.png">
+              </div>
+           </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/87KrYtS/bootstrap.jpg">
+              </div>
+           </div>
+            </div>
+          </div>
+        </div>
+  </div>  
+  <div class="container">
+    <h2 class="display-2 d-flex justify-content-center text-black">Soft Skills</h2>
+    <div class="card-container d-flex flex-wrap justify-content-center gap-4">
+      <div class="card-container d-flex flex-wrap justify-content-center gap-4">
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/L09KC0s/111530685-creativity-icon-vector-isolated-on-white-background-logo-concept-of-creativity-sign-on-tra.jpg">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/vBzWJ06/111557160-time-management-icon-time-management-symbol-design-from-time-managemnet-collection.jpg">
+              </div>
+           </div>
+            </div>
+          </div>
+        <div class="card mb-3" style="width: 10rem;">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="https://i.ibb.co/p0rggrn/communication-icon-monochrome-simple-communication-icon-for-templates-web-design-and-infographics-2.jpg">
+              </div>
+           </div>
+            </div>
+          </div>
+            </div>
   </div>   
 </div>
+  </div>
 </template>
 
 <script>
@@ -333,5 +423,41 @@ h2.display-2 {
 
 }
 
+.card {
+  width: 10rem;
+  height: 200px; /* Adjust the height as needed */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
 
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card-front {
+  width: 100%;
+  height: 100%;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
 </style>

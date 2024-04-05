@@ -1,20 +1,22 @@
 <template>
-   <div class="container">
+   <div class="container-1">
     <div class="row">
-     <h2 class="display-2 d-flex justify-content-center">About</h2>
+     <h2 class="display-2 d-flex justify-content-center  text-black">About</h2>
      <div class="col-md-6">
-          <img class="img-fluid rounded-4" src="https://i.ibb.co/1GFxL0B/20231022-161301.jpg" loading="lazy" alt="profile">
-        </div>
-       <div class="col-md-6">
-        <p class="text-sm">NAME:<span class="spacer"> </span>Taryn-lee</p>
-        <p class="text-sm">SURNAME:<span class="spacer"> </span>Walbrugh</p>
-        <p class="text-sm">DOB:<span class="spacer"> </span>25 August 2000</p>
-        <p class="text-sm">ADDRESS:<span class="spacer"> </span>72 Hockey Crescent<br>Beacon Valley<br>Mitchell's Plain<br>7785
-         </p>
-         <p class="text-sm">CONTACT:<span class="spacer"> </span>0682714785/0649430819</p>
-         <p class="text-sm">LANGUAGES:<span class="spacer"> </span>English & Afrikaans</p>
-         <p class="text-sm">HOBBIES:<span class="spacer"> </span>During my down time i enjoy reading,<br> cooking and learning new programming languages and the .</p>
-       </div>
+  <div class="personal-info">
+    <p class="text-sm text-black">
+      Name:<span class="spacer"></span>Taryn-lee<br>
+      Surname:<span class="spacer"></span>Walbrugh<br>
+      Dob:<span class="spacer"></span>25 August 2000<br>
+      Address:<span class="spacer"></span>72 Hockey Crescent<br>Beacon Valley<br>Mitchell's Plain<br>7785<br>
+      Contact:<span class="spacer"></span>0682714785/0649430819
+    </p>
+    <p class="text-sm text-black">
+      In my leisure time, I engage in enriching activities such as reading, exploring innovative coding methodologies, and acquiring proficiency in various programming languages. Moreover, I am proficient in both Afrikaans and English languages.
+    </p>
+  </div>
+</div>
+
      </div>
    </div>
 </template>
@@ -53,6 +55,15 @@ export default {
 h2.display-2 {
   margin-bottom: 60px; /* Adjust the margin between the heading and content */
 }
+.personal-info {
+  background-color: #f0f0f0; /* Set background color */
+  padding: 20px; /* Add padding for better readability */
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styling for smaller screens if needed */
+}
+
 </style>
 
 
